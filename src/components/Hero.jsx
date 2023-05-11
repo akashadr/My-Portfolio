@@ -25,8 +25,10 @@ const Hero = () => {
           </p>
         </div>
       </div>
-
-      <ComputersCanvas />
+      
+      <div className={`relative`}>
+        <ComputersCanvas />
+      </div>
     </section>
   );
 };
