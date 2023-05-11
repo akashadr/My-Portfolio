@@ -26,9 +26,9 @@ const Hero = () => {
         </div>
       </div>
       
-      <div className={`relative`}>
-        <ComputersCanvas />
-      </div>
+      
+      <ComputersCanvas />
+     
     </section>
   );
 };
